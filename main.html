@@ -7,6 +7,9 @@
 </head>
 
 <body>
+	<button id="openModal" 
+    onclick="document.getElementsByClassName('modal').style.display='block'"
+    >Open Modal</button>
     
 <div id="modal-content" class="modal" "style=display:none;">
     <div class="modal-header">
@@ -17,9 +20,6 @@
         <span class="close-modal" onclick="document.getElementById('modal-content').style.display='none'">&times;</span>
     </div>
 </div>
-	<button id="openModal" 
-    onclick="document.getElementsByClassName('modal').style.display='block'"
-    >Open Modal</button>
     <script type="text/javascript" src="./script.js">
 </script>
 
