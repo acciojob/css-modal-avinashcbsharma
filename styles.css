@@ -1,1 +1,23 @@
-/*  your css code here. If applicable */
+span:hover {
+        cursor: pointer;
+        }
+    .modal-content{
+        display: flex;
+        flex-direction: column;
+        font-family: sans-serif;         
+        display: flex;
+        flex-direction: column;
+        }
+    .modal-header{
+        width: 80vw;           
+        background-color: green;
+        color: white;
+        padding-left: 10px;
+        }
+    .modal-body{  
+        width: 75vw;       
+        display: flex;
+        padding: 0px 10px 0px 20px;
+        /* border: 2px solid black; */
+        justify-content: space-between;
+        }
