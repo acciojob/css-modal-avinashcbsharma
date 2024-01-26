@@ -2,11 +2,10 @@ span:hover {
         cursor: pointer;
         }
     .modal-content{
+		display:none;
         display: flex;
         flex-direction: column;
-        font-family: sans-serif;         
-        display: flex;
-        flex-direction: column;
+        font-family: sans-serif; 
         }
     .modal-header{
         width: 80vw;           
