@@ -1,16 +1,13 @@
-span:hover {
-        cursor: pointer;
-        }
-    #modal-content{
-		display: none;        
-        font-family: sans-serif; 
-        }
-    .modal-header{
-        width: 80vw;           
-        background-color: green;
-        color: white;
-        padding-left: 10px;
-        }
+ h2{
+	 background-color: green;
+	 color: white;                        
+ }      
+.close-modal{        
+    float: right;
+ }
+    color: white;
+    padding-left: 10px;
+ }
     .modal-body{  
         width: 75vw;       
         display: flex;
