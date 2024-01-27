@@ -5,13 +5,3 @@
 .close-modal{        
     float: right;
  }
-    color: white;
-    padding-left: 10px;
- }
-    .modal-body{  
-        width: 75vw;       
-        display: flex;
-        padding: 0px 10px 0px 20px;
-        /* border: 2px solid black; */
-        justify-content: space-between;
-        }
