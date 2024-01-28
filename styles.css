@@ -1,7 +1,31 @@
- h2{
-	 background-color: green;
-	 color: white;                        
- }      
-.close-modal{        
-    float: right;
- }
+body{
+      background-color: rgb(76, 75, 75);
+      display: auto;
+      padding-left:3vw;
+    }
+    .modal{
+      display: none;
+      background-color: aliceblue;
+      width:89vw;
+      margin-top: 20vh;
+      padding: 0.5px 20px 1px 20px;
+    }
+    .modal-header{     
+      justify-content: space-between;
+      color:rgb(255, 255, 255);
+    }
+    h2{
+      padding-left: 1rem;
+      background-color: rgba(7, 123, 36, 0.8);
+    }
+    .close-modal{
+      border:none ;
+      padding: 0;
+      width:88vw;
+      text-align: right;     
+      background-color:  aliceblue;         
+    }
+    .modal-body{
+      padding-left: 1rem;
+      line-height: 0%;
+    }
